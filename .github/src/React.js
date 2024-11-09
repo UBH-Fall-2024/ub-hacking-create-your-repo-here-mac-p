@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'React';
 
 export default function React() {
-    import React, { useRef } from 'react';
+    import React, { useRef } from 'React';
 
     const Icon = {
         imageURL: 'https://www.svgrepo.com/show/533718/upload.svg',
