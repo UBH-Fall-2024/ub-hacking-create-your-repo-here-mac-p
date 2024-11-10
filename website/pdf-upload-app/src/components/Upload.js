@@ -18,7 +18,7 @@ function Upload() {
             formData.append('pdfFile', file);
 
             try {
-                const response = await axios.post('http://localhost:5900/upload', formData, {
+                const response = await axios.post('http://localhost:5901/upload', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
                     },
@@ -38,7 +38,9 @@ function Upload() {
 
     return (
         <div className="upload-container">
-            <h2>Upload Your TXT File</h2>
+            <h2>Upload Your .txt Transcript File</h2>
+
+
             <form onSubmit={handleUpload}>
                 <input
                     type="file"
@@ -51,6 +53,7 @@ function Upload() {
                 <label htmlFor="file-upload" className="file-upload-label">
                     {file ? file.name : ''} {/* Custom text */}
                 </label>
+
                 <button type="submit">Upload</button>
             </form>
             {uploadMessage && <p>{uploadMessage}</p>}

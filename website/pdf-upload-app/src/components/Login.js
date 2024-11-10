@@ -19,6 +19,8 @@ function Login() {
     return (
         <div className="login-container">
             <img src={"/logo512.png"} alt="Logo" className="logo"/>
+            <p className="about-text">Welcome! We are an AI powered business meeting transcript analyzer.</p>
+
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <input

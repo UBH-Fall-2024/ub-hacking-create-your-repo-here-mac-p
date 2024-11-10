@@ -8,7 +8,7 @@ function ParsePDF() {
     useEffect(() => {
         const fetchFileText = async () => {
             try {
-                const response = await axios.get('http://localhost:5900/parse-txt/output.txt');
+                const response = await axios.get('http://localhost:5901/parse-txt/output.txt');
                 setFileText(response.data.text);
             } catch (error) {
                 setFileText('Error reading the TXT file.');
@@ -22,7 +22,7 @@ function ParsePDF() {
 
     return (
         <div className="parse-container">
-            <h2>Parsed TXT Content</h2>
+            <h2 style={{textAlign: 'center'}}>Your Transcript Analysis</h2>
             {loading ? (
                 <p>Loading...</p>
             ) : (
@@ -31,7 +31,8 @@ function ParsePDF() {
                     readOnly
                     rows="20"
                     cols="100"
-                    style={{ width: '80%', height: '400px' }}
+                    style={{ width: '80%', height: '400px', display: 'block', margin: '0 auto' }}
+
                 />
             )}
         </div>

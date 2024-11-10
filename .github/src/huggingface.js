@@ -25,7 +25,7 @@ class GPTOutputParser {
 
             for await (const line of rl) {
                 const content = GPTOutputParser.parser(line);
-                await GPTOutputParser.writeStringToFile(content, '/Users/olivervarney/IdeaProjects/MeetingMetric/website/backend/uploads/output.txt');
+                await GPTOutputParser.writeStringToFile(content, '/Users/olivervarney/IdeaProjects/MeetingMetric2/website/backend/uploads/output.txt');
             }
         } catch (error) {
             console.error("Error reading file:", error);
