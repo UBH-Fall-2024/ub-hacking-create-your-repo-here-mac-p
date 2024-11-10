@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="workforce" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="python" target="22" />
       <module name="untitled" target="22" />
+      <module name="workforce" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
