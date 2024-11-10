@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import React, { useState } from 'react';
+import FileUploadButton from './fileopenbutton.js';
 
 function App() {
     const [buttonClicked, setButtonClicked] = useState(false);
@@ -10,22 +9,33 @@ function App() {
     };
 
     return (
-        <div style={{ textAlign: 'center', marginTop: '20px' }}>
-            <h1>Welcome to My React Website</h1>
-            <button
-                onClick={handleClick}
+        <div style={{ margin: 0, padding: 0 }}>
+            {/* Banner at the top */}
+            <div
                 style={{
-                    padding: '10px 20px',
-                    fontSize: '16px',
-                    cursor: 'pointer',
-                    backgroundColor: buttonClicked ? 'green' : 'blue',
+                    backgroundColor: '#282c34',
                     color: 'white',
-                    border: 'none',
-                    borderRadius: '5px',
+                    padding: '20px 0',
+                    textAlign: 'center',
+                    fontSize: '24px',
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    zIndex: 1000
                 }}
             >
-                {buttonClicked ? 'Clicked!' : 'Click Me'}
-            </button>
+                <h1>Welcome to My React Website</h1>
+            </div>
+
+            {/* Main content */}
+            <div style={{ textAlign: 'center', marginTop: '100px' }}>
+
+
+                <h2>Interactive Button Below</h2>
+                <FileUploadButton></FileUploadButton>
+
+            </div>
         </div>
     );
 }
