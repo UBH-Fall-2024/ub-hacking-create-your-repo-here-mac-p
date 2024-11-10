@@ -6,7 +6,7 @@ const fs = require('fs').promises;
 const pdfParse = require('pdf-parse');  // Import the pdf-parse library
 
 const app = express();
-const PORT = 5200;
+const PORT = 5500;
 const UPLOADS_DIR = path.join(__dirname, 'uploads');
 
 // Middleware
