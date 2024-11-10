@@ -35,3 +35,11 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+.logo {
+  display: block;          /* Make the image block-level for centering */
+  margin-left: auto;       /* Automatically adjusts the left margin */
+  margin-right: auto;      /* Automatically adjusts the right margin */
+  width: 250px;            /* Adjust width to make the image smaller */
+  height: auto;            /* Maintain aspect ratio */
+}

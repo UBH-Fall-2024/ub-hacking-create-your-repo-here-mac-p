@@ -18,6 +18,7 @@ function Login() {
 
     return (
         <div className="login-container">
+            <img src={"/logo512.png"} alt="Logo" className="logo"/>
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <input

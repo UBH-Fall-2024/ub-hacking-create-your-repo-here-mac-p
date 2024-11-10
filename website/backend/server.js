@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs').promises;
 
 // Import the main function from huggingface.js
-const analyzeFile = require('/Users/shubham_sharma/IdeaProjects/ub-hacking-create-your-repo-here-mac-p/.github/src/huggingface.js');
+const analyzeFile = require('/Users/olivervarney/IdeaProjects/MeetingMetric/.github/src/huggingface.js');
 
 const app = express();
 const PORT = 5900;
