@@ -43,3 +43,16 @@ button:hover {
   width: 250px;            /* Adjust width to make the image smaller */
   height: auto;            /* Maintain aspect ratio */
 }
+
+.file-upload-input {
+  display: block;           /* Make it visible */
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+
+.file-upload-label:hover {
+  background-color: #45a049;
+}

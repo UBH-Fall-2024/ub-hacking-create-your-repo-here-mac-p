@@ -44,8 +44,13 @@ function Upload() {
                     type="file"
                     accept=".txt"  // Allow only .txt files
                     onChange={handleFileChange}
+                    id="file-upload"
+                    className="file-upload-input"
                     required
                 />
+                <label htmlFor="file-upload" className="file-upload-label">
+                    {file ? file.name : ''} {/* Custom text */}
+                </label>
                 <button type="submit">Upload</button>
             </form>
             {uploadMessage && <p>{uploadMessage}</p>}
