@@ -1,13 +1,31 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class GPTOutputParser {
+    public String parser(String input){}
     public static void main(String[] args) {
-        String input = "";
+        ArrayList<String> meetingQualities = new ArrayList<>();
+        String finalOut = "";
+        // Add 2 very bad qualities
+        meetingQualities.add("Harassment");
+        meetingQualities.add("Disrespectful behavior");
+
+        // Add 8 productive qualities
+        meetingQualities.add("Active listening");
+        meetingQualities.add("Clear communication");
+        meetingQualities.add("Being punctual");
+        meetingQualities.add("Respectful of others' opinions");
+        meetingQualities.add("Providing constructive feedback");
+        meetingQualities.add("Staying focused on the agenda");
+        meetingQualities.add("Asking insightful questions");
+        meetingQualities.add("Collaborating with others");
         String output = "";
-        HashMap<String, String> emotionList = new HashMap<>();
-        for (Map.Entry<String, String> entry: emotionList.entrySet()){
-            output += entry.getKey() + ": " + entry.getValue();
+        for (int i = 0; i <= meetingQualities.size(); i++){
+            output = output.substring(output.lastIndexOf("[")+1, output.lastIndexOf("]")-1);
+            ArrayList<String> wordList = new ArrayList<>(Arrays.asList(output.split(",")));
+            for (i = 0; i <= meetingQualities.size(); i++){
+                finalOut += meetingQualities.get(i) + ":" + wordList.get(i) +"/n";
+            }
         }
     }
 
