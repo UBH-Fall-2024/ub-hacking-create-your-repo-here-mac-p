@@ -18,7 +18,7 @@ function Upload() {
             formData.append('pdfFile', file);
 
             try {
-                const response = await axios.post('http://localhost:5200/upload', formData, {
+                const response = await axios.post('http://localhost:5500/upload', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
                     },
@@ -42,7 +42,7 @@ function Upload() {
             <form onSubmit={handleUpload}>
                 <input
                     type="file"
-                    accept=".pdf"
+                    accept=".txt"
                     onChange={handleFileChange}
                     required
                 />
