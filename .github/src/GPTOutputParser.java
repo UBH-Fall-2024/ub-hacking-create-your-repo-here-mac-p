@@ -20,13 +20,10 @@ public class GPTOutputParser {
         meetingQualities.add("Asking insightful questions");
         meetingQualities.add("Collaborating with others");
         String output = "";
-        for (int i = 0; i <= meetingQualities.size(); i++){
             output = output.substring(output.lastIndexOf("[")+1, output.lastIndexOf("]")-1);
             ArrayList<String> wordList = new ArrayList<>(Arrays.asList(output.split(",")));
-            for (i = 0; i <= meetingQualities.size(); i++){
+            for (int i = 0; i <= meetingQualities.size(); i++){
                 finalOut += meetingQualities.get(i) + ":" + wordList.get(i) +"/n";
             }
         }
     }
-
-}
