@@ -26,7 +26,7 @@ async function main() {
 
             // Append the result to the output file
             await fs.promises.appendFile('gptOutputString.txt', stringRepresentation + '\n');
-            console.log('File has been written');
+            console.log('Line written');
         }
     } catch (error) {
         console.error("Error occurred:", error);
