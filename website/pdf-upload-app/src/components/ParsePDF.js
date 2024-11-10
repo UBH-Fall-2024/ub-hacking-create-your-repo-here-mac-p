@@ -1,35 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
 
 function ParsePDF() {
-    const { filename } = useParams(); // Get filename from URL
-    const [pdfText, setPdfText] = useState('');
+    const [fileText, setFileText] = useState('');
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchPdfText = async () => {
+        const fetchFileText = async () => {
             try {
-                const response = await axios.get(`http://localhost:5500/parse-pdf/${filename}`);
-                setPdfText(response.data.text);
+                const response = await axios.get('http://localhost:5900/parse-txt/output.txt');
+                setFileText(response.data.text);
             } catch (error) {
-                setPdfText('Error parsing the PDF file.');
+                setFileText('Error reading the TXT file.');
             } finally {
                 setLoading(false);
             }
-        };
+        };//note
 
-        fetchPdfText();
-    }, [filename]);
+        fetchFileText();
+    }, []);
 
     return (
         <div className="parse-container">
-            <h2>Parsed PDF Content</h2>
+            <h2>Parsed TXT Content</h2>
             {loading ? (
                 <p>Loading...</p>
             ) : (
                 <textarea
-                    value={pdfText}
+                    value={fileText}
                     readOnly
                     rows="20"
                     cols="100"

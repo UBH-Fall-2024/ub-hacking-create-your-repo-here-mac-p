@@ -14,7 +14,7 @@ function Login() {
         } else {
             alert('Please fill out both fields.');
         }
-    };
+    };//note
 
     return (
         <div className="login-container">
