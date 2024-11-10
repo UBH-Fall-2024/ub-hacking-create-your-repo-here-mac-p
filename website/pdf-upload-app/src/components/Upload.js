@@ -51,7 +51,7 @@ function Upload() {
                     required
                 />
                 <label htmlFor="file-upload" className="file-upload-label">
-                    {file ? file.name : ''} {/* Custom text */}
+                    {'Choose File'} {/* Custom text */}
                 </label>
 
                 <button type="submit">Upload</button>

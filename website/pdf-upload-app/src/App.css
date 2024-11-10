@@ -40,3 +40,16 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+
+
+.logo {
+  width: 100%;
+}
+
+
+
+
+.file-upload-input {
+  margin: 10px 0;
+}
