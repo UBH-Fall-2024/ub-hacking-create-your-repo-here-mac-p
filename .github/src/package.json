@@ -10,5 +10,8 @@
     "type": "git",
     "url": "https://github.com/UBH-Fall-2024/ub-hacking-create-your-repo-here-mac-p.git"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.2"
+  }
 }
