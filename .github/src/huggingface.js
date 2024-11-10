@@ -21,7 +21,7 @@ async function main() {
 
         // Read each line
         for await (const line of rl) {
-            const out = await pipe(line, ['business strategy', 'customer service', 'team collaboration', 'technical improvement']);
+            const out = await pipe(line, ['Harassment', 'Disrespectful', 'Active listening', 'Clear communication', 'Problem Solving', 'Respectful of others opinions', 'Providing constructive feedback', 'Staying focused on the agenda', 'Asking insightful questions' , 'Collaborating with others']);
             const stringRepresentation = JSON.stringify(out);
 
             // Append the result to the output file
