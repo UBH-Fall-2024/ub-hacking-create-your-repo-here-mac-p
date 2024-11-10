@@ -5,6 +5,10 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  background-image: url('image5.png'); /* Replace with the correct path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .login-container, .upload-container {
@@ -14,6 +18,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
+  background-color: rgba(255, 255, 255, 0.9); /* Add a slight background color for better readability */
 }
 
 input[type="text"], input[type="password"], input[type="file"] {
@@ -34,25 +39,4 @@ button {
 
 button:hover {
   background-color: #0056b3;
-}
-
-.logo {
-  display: block;          /* Make the image block-level for centering */
-  margin-left: auto;       /* Automatically adjusts the left margin */
-  margin-right: auto;      /* Automatically adjusts the right margin */
-  width: 250px;            /* Adjust width to make the image smaller */
-  height: auto;            /* Maintain aspect ratio */
-}
-
-.file-upload-input {
-  display: block;           /* Make it visible */
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  margin: 10px 0;
-}
-
-
-.file-upload-label:hover {
-  background-color: #45a049;
 }
