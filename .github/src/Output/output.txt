@@ -1,0 +1,260 @@
+Employee: Michael
+
+Harassment: 0.18269728603658292
+Disrespectful behavior: 0.15239442065384248
+Active listening: 0.1387084074517206
+Clear communication: 0.12869106194933444
+Problem solving: 0.10217704235568695
+Respectful of others' opinions: 0.08917659763162902
+Providing constructive feedback: 0.08887661655072938
+Staying focused on the agenda: 0.042088835387276494
+Asking insightful questions: 0.03897082799418094
+Collaborating with others: 0.03621890398901678
+
+Employee: Sarah
+
+Harassment: 0.3106501169330757
+Disrespectful behavior: 0.13905592728571264
+Active listening: 0.10538619379973349
+Clear communication: 0.09994501867359046
+Problem solving: 0.08020345138969541
+Respectful of others' opinions: 0.07964522433713207
+Providing constructive feedback: 0.07611616132632922
+Staying focused on the agenda: 0.04616734690545454
+Asking insightful questions: 0.04060041426597278
+Collaborating with others: 0.02223014508330361
+
+Employee: James
+
+Harassment: 0.5303835975109285
+Disrespectful behavior: 0.09722088289046234
+Active listening: 0.07503273123822088
+Clear communication: 0.07208804602345552
+Problem solving: 0.057500560909984434
+Respectful of others' opinions: 0.05708638306338584
+Providing constructive feedback: 0.04567375481911972
+Staying focused on the agenda: 0.041199099022895966
+Asking insightful questions: 0.013201922906228623
+Collaborating with others: 0.010613021615318213
+
+Employee: Emily
+
+Harassment: 0.1408785206277544
+Disrespectful behavior: 0.12599085806789173
+Active listening: 0.11369591520953472
+Clear communication: 0.10631201538886874
+Problem solving: 0.10476476217051497
+Respectful of others' opinions: 0.10366184133174798
+Providing constructive feedback: 0.08813756352369682
+Staying focused on the agenda: 0.08215191073529307
+Asking insightful questions: 0.06938819973280831
+Collaborating with others: 0.06501841321188923
+
+Employee: David
+
+Harassment: 0.14580842279359368
+Disrespectful behavior: 0.12620400267363444
+Active listening: 0.11293302452994898
+Clear communication: 0.10634407637639307
+Problem solving: 0.1026242409854421
+Respectful of others' opinions: 0.10210985686271958
+Providing constructive feedback: 0.10104919542608332
+Staying focused on the agenda: 0.07647561866863148
+Asking insightful questions: 0.06434511925299422
+Collaborating with others: 0.0621064424305592
+
+Employee: Michael
+
+Harassment: 0.4300314219538131
+Disrespectful behavior: 0.13218166383789767
+Active listening: 0.11703992053293259
+Clear communication: 0.0893903661158153
+Problem solving: 0.0631450454747321
+Respectful of others' opinions: 0.05516284775239486
+Providing constructive feedback: 0.04102274203062344
+Staying focused on the agenda: 0.029593116411477615
+Asking insightful questions: 0.02781239824508115
+Collaborating with others: 0.014620477645232185
+
+Employee: Sarah
+
+Harassment: 0.15581973576061467
+Disrespectful behavior: 0.15242865115297333
+Active listening: 0.13384953548897474
+Clear communication: 0.10443835001731944
+Problem solving: 0.10233565762406802
+Respectful of others' opinions: 0.0982037518419768
+Providing constructive feedback: 0.07265714714215726
+Staying focused on the agenda: 0.06976085412993122
+Asking insightful questions: 0.0642489235397896
+Collaborating with others: 0.04625739330219511
+
+Employee: James
+
+Harassment: 0.30175240261611663
+Disrespectful behavior: 0.11243811549219884
+Active listening: 0.0971931413642899
+Clear communication: 0.08233983324711837
+Problem solving: 0.080453050536734
+Respectful of others' opinions: 0.07917077592884274
+Providing constructive feedback: 0.07442479236670624
+Staying focused on the agenda: 0.0646518226597238
+Asking insightful questions: 0.05623187300591331
+Collaborating with others: 0.05134419278235619
+
+Employee: Emily
+
+Harassment: 0.15788265868900286
+Disrespectful behavior: 0.1259654856187848
+Active listening: 0.1155162231160272
+Clear communication: 0.10720514495488619
+Problem solving: 0.1030439454057318
+Respectful of others' opinions: 0.10261197243200822
+Providing constructive feedback: 0.07932216720349267
+Staying focused on the agenda: 0.07783689613847965
+Asking insightful questions: 0.07350313861754212
+Collaborating with others: 0.05711236782404452
+
+Employee: Michael
+
+Harassment: 0.2509005610844398
+Disrespectful behavior: 0.15175059390420156
+Active listening: 0.14059737242247128
+Clear communication: 0.10380722124649253
+Problem solving: 0.09449091822101753
+Respectful of others' opinions: 0.07189381250438981
+Providing constructive feedback: 0.05445530893560884
+Staying focused on the agenda: 0.05196524877484573
+Asking insightful questions: 0.04218715644585848
+Collaborating with others: 0.037951806460674545
+
+Employee: David
+
+Harassment: 0.17660601318754113
+Disrespectful behavior: 0.12583456659686118
+Active listening: 0.12412259434614688
+Clear communication: 0.11777468005713992
+Problem solving: 0.1149612963610473
+Respectful of others' opinions: 0.09640866807208662
+Providing constructive feedback: 0.08438697903490952
+Staying focused on the agenda: 0.06497229282795246
+Asking insightful questions: 0.05701390216455416
+Collaborating with others: 0.03791900735176083
+
+Employee: Sarah
+
+Harassment: 0.3085528990095759
+Disrespectful behavior: 0.18111878106113286
+Active listening: 0.12779229982969048
+Clear communication: 0.1034558566546648
+Problem solving: 0.0943256397473458
+Respectful of others' opinions: 0.06851170773880336
+Providing constructive feedback: 0.059792830215325124
+Staying focused on the agenda: 0.021531844734613382
+Asking insightful questions: 0.018455773688133673
+Collaborating with others: 0.01646236732071455
+
+Employee: Michael
+
+Harassment: 0.30882904894264795
+Disrespectful behavior: 0.20516243493952716
+Active listening: 0.15001852616083958
+Clear communication: 0.11479650046608897
+Problem solving: 0.07967855949098139
+Respectful of others' opinions: 0.04234254724368607
+Providing constructive feedback: 0.032411460692802124
+Staying focused on the agenda: 0.026352806352538297
+Asking insightful questions: 0.024487822269419583
+Collaborating with others: 0.015920293441469016
+
+Employee: Emily
+
+Harassment: 0.5635203003864026
+Disrespectful behavior: 0.29759322520723896
+Active listening: 0.03777897929068466
+Clear communication: 0.022634693151905586
+Problem solving: 0.020787254196995838
+Respectful of others' opinions: 0.013795504732608384
+Providing constructive feedback: 0.01337872760440438
+Staying focused on the agenda: 0.013146035802295048
+Asking insightful questions: 0.010620270365409832
+Collaborating with others: 0.006745009262054686
+
+Employee: James
+
+Harassment: 0.21038196071785073
+Disrespectful behavior: 0.15042491804947491
+Active listening: 0.12433079274760846
+Clear communication: 0.11690851922787138
+Problem solving: 0.1102066670559747
+Respectful of others' opinions: 0.09476429066507483
+Providing constructive feedback: 0.08007187421735215
+Staying focused on the agenda: 0.04978262712498239
+Asking insightful questions: 0.031579843157006335
+Collaborating with others: 0.03154850703680416
+
+Employee: David
+
+Harassment: 0.14353814874680298
+Disrespectful behavior: 0.13478054316129578
+Active listening: 0.10879358372977219
+Clear communication: 0.10609859653130582
+Problem solving: 0.10396091629392254
+Respectful of others' opinions: 0.10100549877139905
+Providing constructive feedback: 0.08832997593089711
+Staying focused on the agenda: 0.07705070989006613
+Asking insightful questions: 0.07311289647423867
+Collaborating with others: 0.06332913047029966
+
+Employee: Michael
+
+Harassment: 0.22214348401795023
+Disrespectful behavior: 0.21367249821038145
+Active listening: 0.1408355895503519
+Clear communication: 0.1117585240222345
+Problem solving: 0.0946441562139427
+Respectful of others' opinions: 0.07069867778978702
+Providing constructive feedback: 0.046334162066699
+Staying focused on the agenda: 0.04585172022755553
+Asking insightful questions: 0.033119375060169126
+Collaborating with others: 0.020941812840928505
+
+Employee: Sarah
+
+Harassment: 0.1610231035510931
+Disrespectful behavior: 0.14248867016706665
+Active listening: 0.12169040710139471
+Clear communication: 0.11989329491370711
+Problem solving: 0.11501594992685533
+Respectful of others' opinions: 0.1137505568579096
+Providing constructive feedback: 0.09132982191961155
+Staying focused on the agenda: 0.07942744422762371
+Asking insightful questions: 0.03642377196180669
+Collaborating with others: 0.01895697937293156
+
+Employee: Emily
+
+Harassment: 0.19591187588053446
+Disrespectful behavior: 0.15519950166747803
+Active listening: 0.15037671587541918
+Clear communication: 0.13461173243447583
+Problem solving: 0.08386025805053375
+Respectful of others' opinions: 0.07984156769923835
+Providing constructive feedback: 0.07434316848372699
+Staying focused on the agenda: 0.07241861340603323
+Asking insightful questions: 0.02688583471914684
+Collaborating with others: 0.0265507317834133
+
+Employee: Michael
+
+Harassment: 0.6114557534028192
+Disrespectful behavior: 0.09476453254259212
+Active listening: 0.05906822806085906
+Clear communication: 0.0589281703079167
+Problem solving: 0.05740903450815662
+Respectful of others' opinions: 0.038308493660099315
+Providing constructive feedback: 0.032023088576398386
+Staying focused on the agenda: 0.03045185846891962
+Asking insightful questions: 0.009480534238431105
+Collaborating with others: 0.008110306233807917
+

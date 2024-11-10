@@ -1,17 +1,23 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class GPTOutputParser {
-
+    public static void writeStringToFile(String content, String filePath) throws IOException {
+        // Use try-with-resources to automatically close the writer
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
+            writer.write(content);
+            writer.newLine();
+        }
+    }
     //reads in line by line and parses for a more readable string
     public static void readLine(String filename) throws IOException {
+        String content = "";
         try(BufferedReader br = new BufferedReader(new FileReader(Path.of(filename).toFile()))) {
             String line = br.readLine();
             while (line != null) {
-                parser(line);
+                content = parser(line);
+                writeStringToFile(content,".github/src/Output/output.txt");
                 line = br.readLine();
             }
         }
