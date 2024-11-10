@@ -18,7 +18,7 @@ function Upload() {
             formData.append('pdfFile', file);
 
             try {
-                const response = await axios.post('http://localhost:5100/upload', formData, {
+                const response = await axios.post('http://localhost:5200/upload', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
                     },

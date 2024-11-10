@@ -10,7 +10,7 @@ function ParsePDF() {
     useEffect(() => {
         const fetchPdfText = async () => {
             try {
-                const response = await axios.get(`http://localhost:5100/parse-pdf/${filename}`);
+                const response = await axios.get(`http://localhost:5200/parse-pdf/${filename}`);
                 setPdfText(response.data.text);
             } catch (error) {
                 setPdfText('Error parsing the PDF file.');
