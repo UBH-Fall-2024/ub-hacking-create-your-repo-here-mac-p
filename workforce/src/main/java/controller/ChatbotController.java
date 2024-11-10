@@ -46,6 +46,6 @@ public class ChatbotController {
     public ChatbotResponse generateFeedbackPlot(@RequestBody List<String> performanceData) {
         String plotImage = feedbackPlotService.generateFeedbackPlot(performanceData);
         return new ChatbotResponse(plotImage);
-    }
+    }}
 
 // En
