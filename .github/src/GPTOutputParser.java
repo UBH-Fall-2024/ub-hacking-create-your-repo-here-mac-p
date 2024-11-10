@@ -5,11 +5,13 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class GPTOutputParser {
+
+    //reads in line by line and parses for a more readable string
     public static void readLine(String filename) throws IOException {
         try(BufferedReader br = new BufferedReader(new FileReader(Path.of(filename).toFile()))) {
             String line = br.readLine();
             while (line != null) {
-                String result = parser(line);
+                parser(line);
                 line = br.readLine();
             }
         }
@@ -20,9 +22,6 @@ public class GPTOutputParser {
 
         ArrayList<String> meetingQualities = new ArrayList<>();
 
-//       Gson gson = new Gson();
-//        JsonObject jsonObject = gson.fromJson(line, JsonObject.class);
-//        String input = jsonObject.toString();
         String finalOut = "";
         // Add 2 very bad qualities
         meetingQualities.add("Harassment");
@@ -39,7 +38,7 @@ public class GPTOutputParser {
         meetingQualities.add("Collaborating with others");
 
 
-
+        //creates the string that is more readable
         ArrayList<String> temp = new ArrayList<>(Arrays.asList(line.split(":")));
         String name = temp.get(1).substring(1);
         String output = line.substring(line.lastIndexOf("[") + 1, line.lastIndexOf("]"));
