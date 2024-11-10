@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 public class GPTOutputParser {
     public static void readLine(String filename) throws IOException {
         try(BufferedReader br = new BufferedReader(new FileReader(Path.of(filename).toFile()))) {
@@ -33,7 +31,7 @@ public static String parser(String line) {
         // Add 8 productive qualities
         meetingQualities.add("Active listening");
         meetingQualities.add("Clear communication");
-        meetingQualities.add("Being punctual");
+        meetingQualities.add("Problem solving");
         meetingQualities.add("Respectful of others' opinions");
         meetingQualities.add("Providing constructive feedback");
         meetingQualities.add("Staying focused on the agenda");
@@ -43,7 +41,7 @@ public static String parser(String line) {
 
 
     ArrayList<String> temp = new ArrayList<>(Arrays.asList(line.split(":")));
-        String name = temp.get(2).substring(3);
+        String name = temp.get(1).substring(1);
         String output = line.substring(line.lastIndexOf("[") + 1, line.lastIndexOf("]"));
         ArrayList<String> wordList = new ArrayList<>(Arrays.asList(output.split(",")));
         finalOut += "Employee: " + name + '\n';
